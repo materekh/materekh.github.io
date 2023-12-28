@@ -1,0 +1,197 @@
+body{
+    margin:0px;
+    padding:0px;   
+    text-shadow:0px 0px 1px; 
+    background-color: black;
+    color:white;
+}
+h1{
+    font-size:27px;
+}
+.abs{
+    display:inline;
+    position:absolute;
+}
+.resdisplay{
+    position:absolute;
+    width:100%;
+    text-align:center;
+}
+#navigation{
+    position:fixed;
+}
+#about{
+    margin:0px 0px 0px 0px;
+    padding:0px;
+    top:40px;
+    height: 775px;
+    background-color: rgb(0, 121, 121);
+    color:white;
+    box-shadow: inset 0px 0px 10px rgb(0, 28, 28);
+}
+#pic{
+    position:absolute;
+    top:150px;
+    width:200px;
+    left:10px;
+    border-radius:5px;
+}
+#pic:hover{
+    background-color: rgb(2, 185, 2);
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 10px rgb(2, 110, 2);
+    top:140px;
+}
+#welcome{
+    display:inline;
+    position:absolute;
+    font-size:100px;
+    left:250px;
+    top: 90px;
+}
+#name{
+    color:rgb(1, 190, 1);
+}
+#aboutme{
+    font-size:100px;
+    top:-50px;  
+    text-shadow:1px 1px 5px black;
+}
+#skills{
+    top:300px;
+    left:635px;
+    font-size:60px;
+}
+.skill{
+    font-size:40px;
+    width:300px;
+    height:300px;
+    top:400px;
+    background-color:rgb(0, 203, 0);
+    text-align:center;
+    vertical-align: 0px;
+    left:100px;
+    border-radius:25px;
+}   
+.skill:hover{
+    background-color: rgb(2, 185, 2);
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 10px rgb(2, 110, 2);
+    top:390px;
+}
+#skill2{
+    left:600px;
+}
+#skill3{
+    left:1100px;
+}
+@keyframes spin{
+    0%{
+        width:300px;
+    }
+    50%{
+        width:0px;
+    }
+    100%{
+        width:300px;
+    }
+}
+#contact{
+    margin:0px;
+    padding:0px;
+    top:40px;
+    height: 775px;
+    background-color: rgb(255, 132, 0);
+    color:white;
+    box-shadow: inset 0px 0px 10px rgb(160, 89, 1);
+}
+#conttxt{
+    display:inline;
+    position:absolute;
+    font-size:100px;
+    left:200px;
+    top: 800px;
+    text-shadow:1px 1px 5px black;
+}
+.inp{
+    margin:10px;
+    font-size:30px;
+    position:relative;
+    top:300px;
+    left:400px;
+    width:700px;
+    height:50px;
+    border:1px solid;
+    border-radius:5px;
+    box-shadow:5px 5px 10px;
+}
+#namehide{
+    position:absolute;
+    width:800px;
+    height:100px;
+    top:200px;
+    left:550px;
+}
+#imghide{
+    position:absolute;
+    top:150px;
+    width:200px;
+    height:200px;
+    left:10px;
+    border-radius:5px;
+}
+#s1hide{
+    position: absolute;
+    width:300px;
+    height:300px;
+    top:440px;
+    left:100px;
+}
+#s2hide{
+    position: absolute;
+    width:300px;
+    height:300px;
+    top:440px;
+    left:600px;
+}
+#s3hide{
+    position: absolute;
+    width:300px;
+    height:300px;
+    top:440px;
+    left:1100px;
+}
+#conhide{
+    position:absolute;
+    margin:0px;
+    padding:0px;
+    top:775px;
+    height: 775px;
+    width:100%;
+}
+#conhide2{
+    position:absolute;
+    margin:0px;
+    padding:0px;
+    top:1120px;
+    left:635px;
+    height:100px;
+    width:100px;
+    font-size:20px;
+}
+.res{
+    font-size:30px;
+    border-radius: 20px;
+    color:white;
+    background-color: rgb(204, 1, 201);
+}
+.pay{
+    margin:1px;
+    font-size:16px;
+    border-radius: 20px;
+    color:white;
+    background-color: rgb(126, 1, 204);    
+}
+#pay1{
+    background-color: rgb(128, 128, 128);
+}
